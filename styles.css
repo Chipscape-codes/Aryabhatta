@@ -1,0 +1,143 @@
+/* Set height of body and the document to 100% to enable "full page tabs" */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial;
+  }
+  
+  /* Style tab links */
+  .tablink {
+    background-color: #3e0462;
+    color: rgb(255, 255, 255);
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+  }
+  
+  .tablink:hover {
+    background-color: #a38ba9;
+  }
+  
+  /* Style the tab content (and add height:100% for full page content) */
+  .tabcontent {
+    color: rgb(0, 0, 0);
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+  }
+
+  body {font-family: Arial, Helvetica, sans-serif;}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Normal Login button at top-right but smaller width */
+.top-right {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #0d0338;
+  color: rgb(255, 255, 255);
+  border: none;
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 20px;
+  font-size: 16px;
+  text-align: center;
+  width: 150px;
+}
+
+/* Modal */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.4);
+  padding-top: 100px;
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #29053e;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 280px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+/* Close button */
+.close {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: rgb(32, 6, 85);
+}
+
+/* Avatar image */
+.imgcontainer img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+/* Google Login Button */
+.google-btn {
+  background-color:purple;
+  color:black;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  width: 100%;
+  cursor: pointer;
+}
+
+.google-btn:hover {
+  opacity: 0.8;
+}
+
+header{
+    padding: 10px;;
+    background-color: #3e0462;
+    color: rgb(255, 247, 0);
+    text-align: center;
+}
+
+.tabcontent{
+    color: antiquewhite;
+}
